@@ -7,6 +7,38 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+/* -  -------------- navbar ----------------- */
+.nav{
+	display: inline-block;
+	height: fit-content;
+	width: 100%;
+	overflow: hidden;
+	position:-webkit-sticky;
+}
+.nav-content{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.nav-content ul{
+	display: flex;
+	justify-content: space-between;
+	margin: 5px 5px;
+}
+
+.nav-content ul li{
+	list-style: none;
+	padding: 10px;
+	margin-right: 1em;
+}
+
+.nav .nav-content ul li a{
+	text-decoration: none;
+	font-size: 16px;
+}
+
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
