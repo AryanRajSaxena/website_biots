@@ -1,360 +1,585 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--
 	Story by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>BIOTS</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+  <head>
+    <title>BIOTS</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper" class="divided">
+      <!-- One -->
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="divided">
+     
 
-				<!-- One -->
-					<section class="banner style1 orient-left content-align-left image-position-center fullscreen onload-image-fade-in onload-content-fade-right onscroll-content-fade-in onscroll-image-fade-in">
-						<div class="content">
-							<h1>BIOTS</h1>
-							<p class="major">Set sail with biots through the twisted brooks of technicalities and are forth into invigorating conquests at various events. Bon Voyage!</p>
-							<ul class="actions stacked">
-								<li><a href="#first" class="button big wide smooth-scroll-middle">Get Started</a></li>
-							</ul>
-						</div>
-						<div class="image">
-							<img src="images\DSC01421.JPG" alt="" />
-						</div>
-					</section>
+      <!------------------------------ navbar section -------------------------------->
+      <nav class="navbar navbar-expand-custom navbar-mainbg" id="navbar">
+        <a class="navbar-brand navbar-logo" href="#">BIOTS</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          class="hamburger-menu" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))"
+        >
+          <!-- <i class="fas fa-bars text-white"></i> -->
+          <svg width="40" height="40" viewBox="0 0 100 100">
+            <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+            <path class="line line2" d="M 20,50 H 80" />
+            <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+          </svg>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <div class="hori-selector">
+              <div class="left"></div>
+              <div class="right"></div>
+            </div>
+            <li class="nav-item active">
+              <a class="nav-link" href="javascript:void(0);"
+                ><i class="fa-solid fa-house"></i>Home</a
+              >
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="javascript:void(0);"
+                ><i class="far fa-address-book"></i>About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void(0);"
+                ><i class="far fa-clone"></i>Events</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void(0);"
+                ><i class="far fa-calendar-alt"></i>News</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void(0);"
+                ><i class="fa-solid fa-phone"></i>Contacts</a
+              >
+            </li>
+           
+          </ul>
+        </div>
+      </nav>
+      <!------------------------------ navbar section -------------------------------->
 
-				<!-- Two -->
-					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
-						<div class="content">
-							<h2>History</h2>
-							<p>Embark on the biotech odyssey with BIOTS at BIT Mesra – a visionary haven since 2017! We sculpt futures by blending knowledge, skills, and avant-garde opportunities for our biotech enthusiasts. Picture a journey where the constantly evolving industry becomes your canvas. </p>
-							<!-- <ul class="actions stacked">
+      <section
+        class="banner style1 orient-left content-align-left image-position-center fullscreen onload-image-fade-in onload-content-fade-right onscroll-content-fade-in onscroll-image-fade-in"
+      >
+        <div class="content">
+          <h1>BIOTS</h1>
+          <p class="major">
+            Set sail with biots through the twisted brooks of technicalities and
+            are forth into invigorating conquests at various events. Bon Voyage!
+          </p>
+          <ul class="actions stacked">
+            <li>
+              <a href="#first" class="button big wide smooth-scroll-middle"
+                >Get Started</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="image">
+          <img src="images\DSC01421.JPG" alt="" />
+        </div>
+      </section>
+
+      <!-- Two -->
+      <section
+        class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
+        id="first"
+      >
+        <div class="content">
+          <h2>History</h2>
+          <p>
+            Embark on the biotech odyssey with BIOTS at BIT Mesra – a visionary
+            haven since 2017! We sculpt futures by blending knowledge, skills,
+            and avant-garde opportunities for our biotech enthusiasts. Picture a
+            journey where the constantly evolving industry becomes your canvas.
+          </p>
+          <!-- <ul class="actions stacked">
 								<li><a href="#" class="button">Learn More</a></li>
 							</ul> -->
-						</div>
-						<div class="image">
-							<img src="images\DSC01424.JPG" alt="" />
-						</div>
-					</section>
+        </div>
+        <div class="image">
+          <img src="images\DSC01424.JPG" alt="" />
+        </div>
+      </section>
 
-				<!-- Three -->
-					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
-						<div class="content">
-							<h2>Vision</h2>
-							<p>Our adept team, fervent about biotech's potential, guides you – whether you're a novice trailblazer or a seasoned virtuoso. BIOTS isn't just a club; it's a crucible that's forged some of India's brightest minds. Join us for a symphony of innovation, research, and entrepreneurial flair. Experience Hera Pheri, our magnum opus, where intellect meets entertainment!</p>
-							<!-- <ul class="actions stacked">
+      <!-- Three -->
+      <section
+        class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
+      >
+        <div class="content">
+          <h2>Vision</h2>
+          <p>
+            Our adept team, fervent about biotech's potential, guides you –
+            whether you're a novice trailblazer or a seasoned virtuoso. BIOTS
+            isn't just a club; it's a crucible that's forged some of India's
+            brightest minds. Join us for a symphony of innovation, research, and
+            entrepreneurial flair. Experience Hera Pheri, our magnum opus, where
+            intellect meets entertainment!
+          </p>
+          <!-- <ul class="actions stacked">
 								<li><a href="#" class="button">Learn More</a></li>
 							</ul> -->
-						</div>
-						<div class="image">
-							<img src="images/spotlight02.jpg" alt="" />
-						</div>
-					</section>
+        </div>
+        <div class="image">
+          <img src="images/spotlight02.jpg" alt="" />
+        </div>
+      </section>
 
-				<!-- Four -->
-					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
-						<div class="content">
-							<h2>Heading</h2>
-							<p>Content</p>
-							<!-- <ul class="actions stacked">
+      <!-- Four -->
+      <section
+        class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
+      >
+        <div class="content">
+          <h2>Heading</h2>
+          <p>Content</p>
+          <!-- <ul class="actions stacked">
 								<li><a href="#" class="button">Learn More</a></li>
 							</ul> -->
-						</div>
-						<div class="image">
-							<img src="images\385df697-16ef-44b9-bc74-256a2e9733f1.jpg" alt="" />
-						</div>
-					</section>
+        </div>
+        <div class="image">
+          <img src="images\385df697-16ef-44b9-bc74-256a2e9733f1.jpg" alt="" />
+        </div>
+      </section>
 
-				<!-- Five -->
-					<section class="wrapper style1 align-center">
-						<div class="inner">
-							<h2>Our Events</h2>
-							<p>BIOTS has conducted various events and seminars in the past few years. Details of the events is given below :</p>
-						</div>
+      <!-- Five -->
+      <section class="wrapper style1 align-center">
+        <div class="inner">
+          <h2>Our Events</h2>
+          <p>
+            BIOTS has conducted various events and seminars in the past few
+            years. Details of the events is given below :
+          </p>
+        </div>
 
-						<!-- Gallery -->
-							<div class="gallery style2 medium lightbox onscroll-fade-in">
-								<article>
-									<a href="images\c3f044a3-c6fd-4f41-aba4-35c2d4173070.jpg" class="image">
-										<img src="images\c3f044a3-c6fd-4f41-aba4-35c2d4173070.jpg" alt="" />
-									</a>
-									<div class="caption">
-										<h3>Invictus</h3>
-										<p>It serves as a powerful platform for participants to showcase their strength and determination in overcoming physical and mental challenges.
-There are three rounds 
-1st-Question and Answers
-2nd-Dumb charads 
-3rd-Quiz game.</p>
-										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
-										</ul>
-									</div>
-								</article>
-								<article>
-									<a href="images\6a2c6b4c-26f4-44d1-b0b3-ffc4a9da7fbb.jpg" class="image">
-										<img src="images\6a2c6b4c-26f4-44d1-b0b3-ffc4a9da7fbb.jpg" alt="" />
-									</a>
-									<div class="caption">
-										<h3>Wiki Wars</h3>
-										<p>Wiki Wars is a game where players challenge each other to navigate from one Wikipedia page to another using only hyperlinks. The goal is to reach the target page in the fewest clicks possible, testing knowledge, strategic thinking, and quick decision-making as participants explore the interconnected web of information on Wikipedia.</p>
-										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
-										</ul>
-									</div>
-								</article>
-								<article>
-									<a href="images\0qfbyike.png" class="image">
-										<img src="images\0qfbyike.png" alt="" />
-									</a>
-									<div class="caption">
-										<h3>MITACS Webinar</h3>
-										<p>The students were provided with valuable guidance as to how they should plan about MITAC global link research internship program by students who had previously been a part of the program</p>
-										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
-										</ul>
-									</div>
-								</article>
-								<article>
-									<a href="images\u8i2vqhm.png" class="image">
-										<img src="images\u8i2vqhm.png"alt="" />
-									</a>
-									<div class="caption">
-										<h3>Hera Pheri</h3>
-										<p> Its a  thrilling adventure where clues lead explorers on a quest to uncover hidden riches. The anticipation builds with each discovery, creating an exciting journey full of mystery and excitement.</p>
-										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
-										</ul>
-									</div>
-								</article>
-								<article>
-									<a href="images/gallery/fulls/05.jpg" class="image">
-										<img src="images/gallery/thumbs/05.jpg" alt="" />
-									</a>
-									<div class="caption">
-										<h3>Ultrices Magna</h3>
-										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
-										</ul>
-									</div>
-								</article>
-								<article>
-									<a href="images/gallery/fulls/06.jpg" class="image">
-										<img src="images/gallery/thumbs/06.jpg" alt="" />
-									</a>
-									<div class="caption">
-										<h3>Sed Tempus</h3>
-										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
-										</ul>
-									</div>
-								</article>
-								<article>
-									<a href="images/gallery/fulls/07.jpg" class="image">
-										<img src="images/gallery/thumbs/07.jpg" alt="" />
-									</a>
-									<div class="caption">
-										<h3>Ipsum Lorem</h3>
-										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
-										</ul>
-									</div>
-								</article>
-								<article>
-									<a href="images/gallery/fulls/08.jpg" class="image">
-										<img src="images/gallery/thumbs/08.jpg" alt="" />
-									</a>
-									<div class="caption">
-										<h3>Magna Risus</h3>
-										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
-										</ul>
-									</div>
-								</article>
-								<article>
-									<a href="images/gallery/fulls/09.jpg" class="image">
-										<img src="images/gallery/thumbs/09.jpg" alt="" />
-									</a>
-									<div class="caption">
-										<h3>Tempus Dolor</h3>
-										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
-										</ul>
-									</div>
-								</article>
-								<article>
-									<a href="images/gallery/fulls/10.jpg" class="image">
-										<img src="images/gallery/thumbs/10.jpg" alt="" />
-									</a>
-									<div class="caption">
-										<h3>Sed Etiam</h3>
-										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
-										</ul>
-									</div>
-								</article>
-								<article>
-									<a href="images/gallery/fulls/11.jpg" class="image">
-										<img src="images/gallery/thumbs/11.jpg" alt="" />
-									</a>
-									<div class="caption">
-										<h3>Magna Lorem</h3>
-										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
-										</ul>
-									</div>
-								</article>
-								<article>
-									<a href="images/gallery/fulls/12.jpg" class="image">
-										<img src="images/gallery/thumbs/12.jpg" alt="" />
-									</a>
-									<div class="caption">
-										<h3>Ipsum Dolor</h3>
-										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
-										</ul>
-									</div>
-								</article>
-							</div>
+        <!-- Gallery -->
+        <div class="gallery style2 medium lightbox onscroll-fade-in">
+          <article>
+            <a
+              href="images\c3f044a3-c6fd-4f41-aba4-35c2d4173070.jpg"
+              class="image"
+            >
+              <img
+                src="images\c3f044a3-c6fd-4f41-aba4-35c2d4173070.jpg"
+                alt=""
+              />
+            </a>
+            <div class="caption">
+              <h3>Invictus</h3>
+              <p>
+                It serves as a powerful platform for participants to showcase
+                their strength and determination in overcoming physical and
+                mental challenges. There are three rounds 1st-Question and
+                Answers 2nd-Dumb charads 3rd-Quiz game.
+              </p>
+              <ul class="actions fixed">
+                <li><span class="button small">Details</span></li>
+              </ul>
+            </div>
+          </article>
+          <article>
+            <a
+              href="images\6a2c6b4c-26f4-44d1-b0b3-ffc4a9da7fbb.jpg"
+              class="image"
+            >
+              <img
+                src="images\6a2c6b4c-26f4-44d1-b0b3-ffc4a9da7fbb.jpg"
+                alt=""
+              />
+            </a>
+            <div class="caption">
+              <h3>Wiki Wars</h3>
+              <p>
+                Wiki Wars is a game where players challenge each other to
+                navigate from one Wikipedia page to another using only
+                hyperlinks. The goal is to reach the target page in the fewest
+                clicks possible, testing knowledge, strategic thinking, and
+                quick decision-making as participants explore the interconnected
+                web of information on Wikipedia.
+              </p>
+              <ul class="actions fixed">
+                <li><span class="button small">Details</span></li>
+              </ul>
+            </div>
+          </article>
+          <article>
+            <a href="images\0qfbyike.png" class="image">
+              <img src="images\0qfbyike.png" alt="" />
+            </a>
+            <div class="caption">
+              <h3>MITACS Webinar</h3>
+              <p>
+                The students were provided with valuable guidance as to how they
+                should plan about MITAC global link research internship program
+                by students who had previously been a part of the program
+              </p>
+              <ul class="actions fixed">
+                <li><span class="button small">Details</span></li>
+              </ul>
+            </div>
+          </article>
+          <article>
+            <a href="images\u8i2vqhm.png" class="image">
+              <img src="images\u8i2vqhm.png" alt="" />
+            </a>
+            <div class="caption">
+              <h3>Hera Pheri</h3>
+              <p>
+                Its a thrilling adventure where clues lead explorers on a quest
+                to uncover hidden riches. The anticipation builds with each
+                discovery, creating an exciting journey full of mystery and
+                excitement.
+              </p>
+              <ul class="actions fixed">
+                <li><span class="button small">Details</span></li>
+              </ul>
+            </div>
+          </article>
+          <article>
+            <a href="images/gallery/fulls/05.jpg" class="image">
+              <img src="images/gallery/thumbs/05.jpg" alt="" />
+            </a>
+            <div class="caption">
+              <h3>Ultrices Magna</h3>
+              <p>
+                Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed
+                ultrices.
+              </p>
+              <ul class="actions fixed">
+                <li><span class="button small">Details</span></li>
+              </ul>
+            </div>
+          </article>
+          <article>
+            <a href="images/gallery/fulls/06.jpg" class="image">
+              <img src="images/gallery/thumbs/06.jpg" alt="" />
+            </a>
+            <div class="caption">
+              <h3>Sed Tempus</h3>
+              <p>
+                Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed
+                ultrices.
+              </p>
+              <ul class="actions fixed">
+                <li><span class="button small">Details</span></li>
+              </ul>
+            </div>
+          </article>
+          <article>
+            <a href="images/gallery/fulls/07.jpg" class="image">
+              <img src="images/gallery/thumbs/07.jpg" alt="" />
+            </a>
+            <div class="caption">
+              <h3>Ipsum Lorem</h3>
+              <p>
+                Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed
+                ultrices.
+              </p>
+              <ul class="actions fixed">
+                <li><span class="button small">Details</span></li>
+              </ul>
+            </div>
+          </article>
+          <article>
+            <a href="images/gallery/fulls/08.jpg" class="image">
+              <img src="images/gallery/thumbs/08.jpg" alt="" />
+            </a>
+            <div class="caption">
+              <h3>Magna Risus</h3>
+              <p>
+                Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed
+                ultrices.
+              </p>
+              <ul class="actions fixed">
+                <li><span class="button small">Details</span></li>
+              </ul>
+            </div>
+          </article>
+          <article>
+            <a href="images/gallery/fulls/09.jpg" class="image">
+              <img src="images/gallery/thumbs/09.jpg" alt="" />
+            </a>
+            <div class="caption">
+              <h3>Tempus Dolor</h3>
+              <p>
+                Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed
+                ultrices.
+              </p>
+              <ul class="actions fixed">
+                <li><span class="button small">Details</span></li>
+              </ul>
+            </div>
+          </article>
+          <article>
+            <a href="images/gallery/fulls/10.jpg" class="image">
+              <img src="images/gallery/thumbs/10.jpg" alt="" />
+            </a>
+            <div class="caption">
+              <h3>Sed Etiam</h3>
+              <p>
+                Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed
+                ultrices.
+              </p>
+              <ul class="actions fixed">
+                <li><span class="button small">Details</span></li>
+              </ul>
+            </div>
+          </article>
+          <article>
+            <a href="images/gallery/fulls/11.jpg" class="image">
+              <img src="images/gallery/thumbs/11.jpg" alt="" />
+            </a>
+            <div class="caption">
+              <h3>Magna Lorem</h3>
+              <p>
+                Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed
+                ultrices.
+              </p>
+              <ul class="actions fixed">
+                <li><span class="button small">Details</span></li>
+              </ul>
+            </div>
+          </article>
+          <article>
+            <a href="images/gallery/fulls/12.jpg" class="image">
+              <img src="images/gallery/thumbs/12.jpg" alt="" />
+            </a>
+            <div class="caption">
+              <h3>Ipsum Dolor</h3>
+              <p>
+                Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed
+                ultrices.
+              </p>
+              <ul class="actions fixed">
+                <li><span class="button small">Details</span></li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
 
-					</section>
+      <!-- Six -->
+      <section class="wrapper style1 align-center">
+        <div class="inner">
+          <h2>About Us</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id
+            ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis
+            laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus,
+            pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum.
+          </p>
+          <div class="items style1 medium onscroll-fade-in">
+            <section>
+              <img
+                src="images\0feb57ce-05c9-481d-9547-a6aa0573812f.jpg"
+                alt=""
+                width="200"
+                height="300"
+              />
+              <h3>Aryan Raj</h3>
+              <p>Technical coordinator</p>
+            </section>
+            <section>
+              <span class="icon solid style2 major fa-save"></span>
+              <h3>Ipsum</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                dui turpis, cursus eget orci amet aliquam congue semper. Etiam
+                eget ultrices risus nec tempor elit.
+              </p>
+            </section>
+            <section>
+              <span class="icon solid style2 major fa-chart-bar"></span>
+              <h3>Dolor</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                dui turpis, cursus eget orci amet aliquam congue semper. Etiam
+                eget ultrices risus nec tempor elit.
+              </p>
+            </section>
+            <section>
+              <span class="icon solid style2 major fa-wifi"></span>
+              <h3>Amet</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                dui turpis, cursus eget orci amet aliquam congue semper. Etiam
+                eget ultrices risus nec tempor elit.
+              </p>
+            </section>
+            <section>
+              <span class="icon solid style2 major fa-cog"></span>
+              <h3>Magna</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                dui turpis, cursus eget orci amet aliquam congue semper. Etiam
+                eget ultrices risus nec tempor elit.
+              </p>
+            </section>
+            <section>
+              <span class="icon style2 major fa-paper-plane"></span>
+              <h3>Tempus</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                dui turpis, cursus eget orci amet aliquam congue semper. Etiam
+                eget ultrices risus nec tempor elit.
+              </p>
+            </section>
+            <section>
+              <span class="icon solid style2 major fa-desktop"></span>
+              <h3>Aliquam</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                dui turpis, cursus eget orci amet aliquam congue semper. Etiam
+                eget ultrices risus nec tempor elit.
+              </p>
+            </section>
+            <section>
+              <span class="icon solid style2 major fa-sync-alt"></span>
+              <h3>Elit</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                dui turpis, cursus eget orci amet aliquam congue semper. Etiam
+                eget ultrices risus nec tempor elit.
+              </p>
+            </section>
+            <section>
+              <span class="icon solid style2 major fa-hashtag"></span>
+              <h3>Morbi</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                dui turpis, cursus eget orci amet aliquam congue semper. Etiam
+                eget ultrices risus nec tempor elit.
+              </p>
+            </section>
+            <section>
+              <span class="icon solid style2 major fa-bolt"></span>
+              <h3>Turpis</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                dui turpis, cursus eget orci amet aliquam congue semper. Etiam
+                eget ultrices risus nec tempor elit.
+              </p>
+            </section>
+            <section>
+              <span class="icon solid style2 major fa-envelope"></span>
+              <h3>Ultrices</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                dui turpis, cursus eget orci amet aliquam congue semper. Etiam
+                eget ultrices risus nec tempor elit.
+              </p>
+            </section>
+            <section>
+              <span class="icon solid style2 major fa-leaf"></span>
+              <h3>Risus</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                dui turpis, cursus eget orci amet aliquam congue semper. Etiam
+                eget ultrices risus nec tempor elit.
+              </p>
+            </section>
+          </div>
+        </div>
+      </section>
 
-				<!-- Six -->
-					<section class="wrapper style1 align-center">
-						<div class="inner">
-							<h2>About Us</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum.</p>
-							<div class="items style1 medium onscroll-fade-in">
-								<section>
-										<img src="images\0feb57ce-05c9-481d-9547-a6aa0573812f.jpg" alt="" width ="200" height="300" />
-									<h3>Aryan Raj</h3>
-									<p>Technical coordinator</p>
-								</section>
-								<section>
-									<span class="icon solid style2 major fa-save"></span>
-									<h3>Ipsum</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-								</section>
-								<section>
-									<span class="icon solid style2 major fa-chart-bar"></span>
-									<h3>Dolor</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-								</section>
-								<section>
-									<span class="icon solid style2 major fa-wifi"></span>
-									<h3>Amet</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-								</section>
-								<section>
-									<span class="icon solid style2 major fa-cog"></span>
-									<h3>Magna</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-								</section>
-								<section>
-									<span class="icon style2 major fa-paper-plane"></span>
-									<h3>Tempus</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-								</section>
-								<section>
-									<span class="icon solid style2 major fa-desktop"></span>
-									<h3>Aliquam</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-								</section>
-								<section>
-									<span class="icon solid style2 major fa-sync-alt"></span>
-									<h3>Elit</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-								</section>
-								<section>
-									<span class="icon solid style2 major fa-hashtag"></span>
-									<h3>Morbi</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-								</section>
-								<section>
-									<span class="icon solid style2 major fa-bolt"></span>
-									<h3>Turpis</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-								</section>
-								<section>
-									<span class="icon solid style2 major fa-envelope"></span>
-									<h3>Ultrices</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-								</section>
-								<section>
-									<span class="icon solid style2 major fa-leaf"></span>
-									<h3>Risus</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-								</section>
-							</div>
-						</div>
-					</section>
+      <!-- Seven -->
+      <section class="wrapper style1 align-center">
+        <div class="inner medium">
+          <h2>Get in touch</h2>
+          <form method="post" action="#">
+            <div class="fields">
+              <div class="field half">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" value="" />
+              </div>
+              <div class="field half">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" value="" />
+              </div>
+              <div class="field">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="6"></textarea>
+              </div>
+            </div>
+            <ul class="actions special">
+              <li>
+                <input
+                  type="submit"
+                  name="submit"
+                  id="submit"
+                  value="Send Message"
+                />
+              </li>
+            </ul>
+          </form>
+        </div>
+      </section>
 
-				<!-- Seven -->
-					<section class="wrapper style1 align-center">
-						<div class="inner medium">
-							<h2>Get in touch</h2>
-							<form method="post" action="#">
-								<div class="fields">
-									<div class="field half">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" value="" />
-									</div>
-									<div class="field half">
-										<label for="email">Email</label>
-										<input type="email" name="email" id="email" value="" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="6"></textarea>
-									</div>
-								</div>
-								<ul class="actions special">
-									<li><input type="submit" name="submit" id="submit" value="Send Message" /></li>
-								</ul>
-							</form>
+      <!-- Footer -->
+      <footer class="wrapper style1 align-center">
+        <div class="inner">
+          <ul class="icons">
+            <li>
+              <a href="#" class="icon brands style2 fa-twitter"
+                ><span class="label">Twitter</span></a
+              >
+            </li>
+            <li>
+              <a href="#" class="icon brands style2 fa-facebook-f"
+                ><span class="label">Facebook</span></a
+              >
+            </li>
+            <li>
+              <a href="#" class="icon brands style2 fa-instagram"
+                ><span class="label">Instagram</span></a
+              >
+            </li>
+            <li>
+              <a href="#" class="icon brands style2 fa-linkedin-in"
+                ><span class="label">LinkedIn</span></a
+              >
+            </li>
+            <li>
+              <a href="#" class="icon style2 fa-envelope"
+                ><span class="label">Email</span></a
+              >
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
 
-						</div>
-					</section>
-
-				<!-- Footer -->
-					<footer class="wrapper style1 align-center">
-						<div class="inner">
-							<ul class="icons">
-								<li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-								<li><a href="#" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
-							</ul>
-							
-						</div>
-					</footer>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/navbar.js"></script>
+  </body>
 </html>
